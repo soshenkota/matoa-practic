@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Wireframe checkout</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230602172133">
+	<link rel="shortcut icon" href="tiger.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header" data-lp>
+			<div class="header__container">
+				<a href="#" class="header__logo">
+					<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="#"></picture>
+				</a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="#" class="menu__link">Watches</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Eyewear</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Accessories</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">News</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header__actions actions-header">
+					<a data-popup="#search" href="#" class="actions-header__search _icon-search"></a>
+					<a data-da=".menu__body, 400" href="#" class="actions-header__login _icon-user">Log In</a>
+					<a data-popup="#cart" href="#" class="actions-header__cart _icon-cart"><span>0</span></a>
+					<button type="button" class="icon-menu"><span></span></button>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="confirmation">
+				<div class="confirmation__container">
+					<nav class="confirmation__breadcrumbs breadcrumbs">
+						<div class="breadcrumbs__container breadcrumbs__container--overflow-visible">
+							<ul class="breadcrumbs__list breadcrumbs__list--column">
+								<li class="breadcrumbs__item breadcrumbs__item--column">
+									<div class="breadcrumbs__block breadcrumbs__block">
+										<div class="breadcrumbs__img">
+											<img src="img/confirmation/checkout01.svg" alt="Image">
+										</div>
+										<a href="checkout.html" class="breadcrumbs__link">1. Checkout</a>
+									</div>
+									<div class="breadcrumbs__decor"></div>
+								</li>
+								<li class="breadcrumbs__item breadcrumbs__item--column">
+									<div class="breadcrumbs__block">
+										<div class="breadcrumbs__img">
+											<img src="img/confirmation/payment01.svg" alt="Image">
+										</div>
+										<a href="payment.html" class="breadcrumbs__link">2. Payment</a>
+									</div>
+									<div class="breadcrumbs__decor"></div>
+								</li>
+								<li class="breadcrumbs__item breadcrumbs__item--column">
+									<div class="breadcrumbs__block--red">
+										<div class="breadcrumbs__img breadcrumbs__img--center">
+											<img src="img/confirmation/confirm01.svg" alt="Image">
+										</div>
+										<span class="breadcrumbs__link">3. Confirmation</span>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</nav>
+					<div class="confirmation__order-confirmed order-confirmed">
+						<article class="order-confirmed__picter picter-order-confirmed">
+							<div class="picter-order-confirmed__image">
+								<img src="img/order-confirmed.svg" alt="Image">
+							</div>
+							<h3 class="picter-order-confirmed__title">Order Confirmed</h3>
+							<div class="picter-order-confirmed__text">
+								<p>Your order have been confirmed, please wait and track your order</p>
+							</div>
+							<div class="picter-order-confirmed__action">
+								<a href="#" class="picter-order-confirmed__button">Go to track page</a>
+							</div>
+						</article>
+						<article class="confirmation__info info-confirmation">
+							<div class="info-confirmation__header">
+								<span class="info-confirmation__day">10 days delivery</span>
+								<span class="info-confirmation__express">DHL Express</span>
+							</div>
+							<div class="info-confirmation__ebony">
+								<h4 class="info-confirmation__title">Way Kambas Mini Ebony</h4>
+								<span class="info-confirmation__text">2 x IDR 1.024.000</span>
+								<h4 class="info-confirmation__title">Sikka (Ebony & Mapple)</h4>
+								<span class="info-confirmation__text">1 x IDR 1.264.000</span>
+							</div>
+							<div class="info-confirmation__rp">
+								<div class="info-confirmation__block-rp">
+									<h4 class="info-confirmation__subtitle">Subtotal</h4>
+									<h4 class="info-confirmation__subtitle">Shipping Cost</h4>
+									<h4 class="info-confirmation__subtitle">Packaging</h4>
+								</div>
+								<div class="info-confirmation__block-price">
+									<div class="info-confirmation__numbers">Rp 2.152.000</div>
+									<div class="info-confirmation__numbers">Rp 500.000</div>
+									<div class="info-confirmation__numbers">Rp 50.000</div>
+								</div>
+							</div>
+							<div class="info-confirmation__big">
+								<h4 class="info-confirmation__subtitle">Grand Total</h4>
+								<span class="info-confirmation__numbers info-confirmation__numbers--big">Rp 2.702.000</span>
+							</div>
+							<div class="info-confirmation__address">
+								<span class="info-confirmation__shipping-address">Shipping Address</span>
+								<p class="info-confirmation__shipping-address">18 Richardson Drive
+									Fountain Valley, CA 92708</p>
+							</div>
+						</article>
+					</div>
+				</div>
+				<div class="page__logo logo-page">
+					<div class="logo-page__container">
+						<div class="logo-page__image">
+							<img src="img/logo-page/1.svg" alt="Logo">
+						</div>
+						<div class="logo-page__image">
+							<img src="img/logo-page/2.svg" alt="Logo">
+						</div>
+						<div class="logo-page__image">
+							<img src="img/logo-page/3.svg" alt="Logo">
+						</div>
+						<div class="logo-page__image">
+							<img src="img/logo-page/4.svg" alt="Logo">
+						</div>
+						<div class="logo-page__image">
+							<img src="img/logo-page/5.svg" alt="Logo">
+						</div>
+						<div class="logo-page__image">
+							<img src="img/logo-page/6.svg" alt="Logo">
+						</div>
+						<div class="logo-page__image">
+							<img src="img/logo-page/7.svg" alt="Logo">
+						</div>
+						<div class="logo-page__image">
+							<img src="img/logo-page/8.svg" alt="Logo">
+						</div>
+						<div class="logo-page__image">
+							<img src="img/logo-page/9.svg" alt="Logo">
+						</div>
+						<div class="logo-page__image">
+							<img src="img/logo-page/10.svg" alt="Logo">
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer data-spollers="1081, max" class="footer">
+			<div class="footer__container">
+				<!-- 1 -->
+				<div class="footer__column">
+					<a href="#" class="footer__logo">
+						<picture><source srcset="img/logo-footer.webp" type="image/webp"><img src="img/logo-footer.png" alt="logo"></picture>
+					</a>
+					<div class="footer__block-address address-footer">
+						<h3 class="address-footer__button">Address</h3>
+						<div class="address-footer__text">
+							<p>Store & Office</p>
+							<p>Jl. Setrasari Kulon III, No. 10-12, </p>
+							<p>Sukarasa, Sukasari, Bandung, </p>
+							<p>Jawa Barat, Indonesia 40152</p>
+						</div>
+						<h3 class="address-footer__button">Office Hour</h3>
+						<div class="address-footer__text">
+							<p>Monday - Sunday</p>
+							<p>10.00 - 18.00</p>
+						</div>
+					</div>
+				</div>
+				<!-- 2 -->
+				<div class="footer__all">
+					<div class="footer__column">
+						<button type="button" data-spoller class="footer__title title-footer">Get in touch</button>
+						<div class="footer__contacts contacts-footer">
+							<div class="contacts-footer__body">
+								<div class="contacts-footer__label">Phone</div>
+								<a href="tel:02220277564" class="contacts-footer__value">022-202-77564</a>
+								<div class="contacts-footer__label">Service Center</div>
+								<a href="tel:08112338899" class="contacts-footer__value">0811-233-8899</a>
+								<div class="contacts-footer__label">Customer Service</div>
+								<a href="tel:08112359988" class="contacts-footer__value">0811-235-9988</a>
+							</div>
+							<div class="contacts-footer__social social">
+								<a href="#" class="social__item _icon-s-facebook"></a>
+								<a href="#" class="social__item _icon-s-instagram"></a>
+								<a href="#" class="social__item _icon-s-twitter"></a>
+								<a href="#" class="social__item _icon-s-youtube"></a>
+							</div>
+						</div>
+					</div>
+					<!-- 3 -->
+					<div class="footer__column">
+						<button type="button" data-spoller class="footer__title title-footer">Useful Link</button>
+						<nav class="footer__menu menu-footer">
+							<ul class="menu-footer__list">
+								<li class="menu-footer__item"><a href="#" class="menu-footer__link">Warranty & Complaints</a></li>
+								<li class="menu-footer__item"><a href="#" class="menu-footer__link">Order & Shipping</a></li>
+								<li class="menu-footer__item"><a href="#" class="menu-footer__link">Tracking Order</a></li>
+								<li class="menu-footer__item"><a href="#" class="menu-footer__link">About Us</a></li>
+								<li class="menu-footer__item"><a href="#" class="menu-footer__link">Repair</a></li>
+								<li class="menu-footer__item"><a href="#" class="menu-footer__link">Terms</a></li>
+								<li class="menu-footer__item"><a href="#" class="menu-footer__link">FAQ</a></li>
+							</ul>
+						</nav>
+					</div>
+					<!-- 4 -->
+					<div class="footer__column">
+						<button type="button" data-spoller class="footer__title title-footer">Campaign</button>
+						<nav class="footer__menu menu-footer">
+							<ul class="menu-footer__list">
+								<li class="menu-footer__item"><a href="#" class="menu-footer__link">Mengenal Arti Cukup</a></li>
+								<li class="menu-footer__item"><a href="#" class="menu-footer__link">Tell Your Difference</a></li>
+								<li class="menu-footer__item"><a href="#" class="menu-footer__link">Waykambas</a></li>
+								<li class="menu-footer__item"><a href="#" class="menu-footer__link">Rebrand</a></li>
+								<li class="menu-footer__item"><a href="#" class="menu-footer__link">Gallery</a></li>
+								<li class="menu-footer__item"><a href="#" class="menu-footer__link">Singo</a></li>
+								<li class="menu-footer__item"><a href="#" class="menu-footer__link">Rakai</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<div class="footer__decor decor-footer">
+					<div class="decor-footer__item item-footer item-footer--1"></div>
+					<div class="decor-footer__item item-footer item-footer--2"></div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div id="search" aria-hidden="true" class="popup popup__search">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"></button>
+				<div class="popup__text">
+					<form action="#" method="get" class="search-form">
+						<div class="search-form__body">
+							<input data-required autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Пошук" class="search-form__input input">
+							<button type="submit" class="button-popup _icon-search"></button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="cart" aria-hidden="true" class="popup popup__cart">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"></button>
+				<div class="popup__text">
+					<form action="#" class="cart">
+						<div class="cart__items">
+							<div class="cart__item item-cart">
+								<a href="#" class="item-cart__image">
+									<picture><source srcset="img/forma/01.webp" type="image/webp"><img src="img/forma/01.png" alt="Image"></picture>
+								</a>
+								<div class="item-cart__body">
+									<a href="#" class="item-cart__title">Way Kambas Mini Ebony</a>
+									<div class="item-cart__old-price">Rp 1.280.000</div>
+									<div class="item-cart__price">Rp 1.024.000</div>
+									<div class="item-cart__options options-item-cart">
+										<div class="options-item-cart__label">Custom Engrave</div>
+										<div class="options-item-cart__value">“Happy | Birthday | from”</div>
+									</div>
+								</div>
+								<div class="item-cart__info">
+									<div class="item-cart__packaging">
+										<div class="item-cart__label">Select Packaging</div>
+										<select name="form[]" data-class-modif="cart">
+											<option value="1" selected>Wooden Packaging (Rp 50.000)</option>
+											<option value="2">Wooden Packaging (Rp 40.000)</option>
+											<option value="3">Wooden Packaging (Rp 30.000)</option>
+											<option value="4">Wooden Packaging (Rp 20.000)</option>
+										</select>
+									</div>
+									<div class="item-cart__actions">
+										<div data-quantity class="item-cart__quantity quantity">
+											<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+											<div class="quantity__input">
+												<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+										</div>
+										<div class="item-cart__total">Rp 2.048.000</div>
+										<button class="item-cart__delete _icon-delete"></button>
+									</div>
+								</div>
+							</div>
+							<div class="cart__item item-cart">
+								<a href="#" class="item-cart__image">
+									<picture><source srcset="img/forma/02.webp" type="image/webp"><img src="img/forma/02.png" alt="Image"></picture>
+								</a>
+								<div class="item-cart__body">
+									<a href="#" class="item-cart__title">Sikka (Ebony & Maple)</a>
+									<div class="item-cart__price">Rp 1.264.000</div>
+								</div>
+								<div class="item-cart__info">
+									<div class="item-cart__packaging">
+										<div class="item-cart__label">Select Packaging</div>
+										<select name="form[]" data-class-modif="cart">
+											<option value="1" selected>Default Packaging (Free)</option>
+											<option value="2">Default Packaging (Free)</option>
+											<option value="3">Default Packaging (Free)</option>
+											<option value="4">Default Packaging (Free)</option>
+										</select>
+									</div>
+									<div class="item-cart__actions">
+										<div data-quantity class="item-cart__quantity quantity">
+											<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+											<div class="quantity__input">
+												<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+										</div>
+										<div class="item-cart__total">Rp 2.048.000</div>
+										<button class="item-cart__delete _icon-delete"></button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="cart__footer">
+							<div class="cart__promo promo-cart">
+								<label for="p-1" class="promo-cart__label">Kode Promo</label>
+								<div class="promo-cart__line">
+									<input id="p-1" autocomplete="of" type="text" name="promo" class="promo-cart__input">
+								</div>
+								<div class="promo-cart__info">35% OFF</div>
+							</div>
+							<div class="cart__total total-cart">
+								<div class="total-cart__label">Subtotal</div>
+								<div class="total-cart__value">
+									<div class="total-cart__old-price">Rp 3.312.000</div>
+									<div class="total-cart__price">Rp 2.152.000</div>
+								</div>
+							</div>
+						</div>
+						<button data-ripple type="submit" class="cart__button"><span>Checkout</span></button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20230602172133"></script>
+</body>
+
+</html>
